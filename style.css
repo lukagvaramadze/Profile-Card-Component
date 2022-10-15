@@ -1,0 +1,90 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("bg-pattern-top.svg"), url("bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    background-position: right 53vw bottom 31vh, 47vw 54vh;
+    overflow: hidden;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+
+
+#main{
+    width: 350px;
+    height: 374px;
+    border-radius: 15px;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-img{
+    position: relative;
+}
+
+#profile{
+    border-radius: 50px;
+    width: 96px;
+    height: 96px;
+    z-index: 0;
+    position: absolute;
+    bottom: 49%;
+    border: 5px solid white;
+}
+
+#pers-name{
+    color: #2E3349;
+    font-size: 18px;
+    margin-right: 4px;
+    font-weight: bold;
+}
+
+#age{
+    color: #6B7082;
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+#personal{
+    display: flex;
+    align-items: center;
+    margin: 0;   
+}
+
+#city{
+    color: #6B7082;
+    font-size: 14px;
+    margin: 0;
+}
+
+#pad{
+    height: 1px;
+    width: 350px;
+    background-color: #E8E9EC;
+
+}
+
+.quentity{
+    font-size: 18px;
+    font-weight: bold;
+    color: #2E3349;
+    margin: 0;
+}
+
+#stats{
+    width: 246px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-line{
+    font-size: 10px;
+    color: #6B7082;
+    text-align: center;
+}
